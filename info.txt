@@ -1,0 +1,21 @@
+# Create go application
++++++++++++++++++++++++
+go mod init github/SanuKumar/go_ecom
+
+# Folder details
+++++++++++++++++
+cmd -> store entry points of application in CMD.
+
+migration -> seperate program from the API.
+
+go get github.com/gorilla/mux // download mux
+
+go get github.com/go-sql-driver/mysql // download sql
+
+make run 
+
+# Design
+https://app.diagrams.net/#G1QTZsLofDD2bsAVdamk4dO2OAmwTJwltB#%7B%22pageId%22%3A%22wswm5CIGjA5l02lGRc_v%22%7D
+
+
+GoDotEnv --> this load env vars from a .env file
