@@ -24,5 +24,8 @@ func (h *Handler) handleLogin(w http.ResponseWriter, r *http.Request) {
 }
 
 func (h *Handler) handleRegister(w http.ResponseWriter, r *http.Request) {
-	// Handle user registration logic here
+	//get JSON payload
+
+	//check if user already exists
+	// if it doesn't exist, create a new user
 }
